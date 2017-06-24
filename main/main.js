@@ -1,3 +1,6 @@
 module.exports = function main(email, suffixes) {
-  // Write your code here
+  var mail = email.split("@")[1];
+  if(mail == suffixes)
+  return true;
+  else return false;
 };
